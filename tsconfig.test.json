@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+//    "target": "es6",
+//    "outDir": "./test-dist",
+//    "moduleResolution": "Node",
+//    "allowJs": true,
+//    "module": "es2022",
+  },
+  "include": [
+    "./lib/**/*",
+    "index.ts",
+    "./test",
+  ],
+  "exclude": [
+  ]
+}
