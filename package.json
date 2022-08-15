@@ -1,6 +1,6 @@
 {
   "name": "@safeheron/crypto-ecies",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "ecies",
   "engines": {
     "node": ">= 16"
@@ -17,7 +17,6 @@
     "type": "git",
     "url": "git@github.com:safeheron/crypto-ecies-js"
   },
-  "license": "Apache 2.0",
   "author": "Max<hejh1500@gmail.com>",
   "files": [
     "dist"
@@ -43,8 +42,8 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "@safeheron/crypto-rand": "git+https://github.com/Safeheron/crypto-rand-js.git",
-    "@safeheron/crypto-utils": "github:Safeheron/crypto-utils-js",
+    "@safeheron/crypto-rand": "^1.0.0",
+    "@safeheron/crypto-utils": "^1.0.1",
     "bn.js": "^5.2.1",
     "crypto-js": "3.3.0",
     "elliptic": "^6.5.3"
