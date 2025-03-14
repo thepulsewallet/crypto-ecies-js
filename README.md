@@ -13,7 +13,7 @@ npm install @safeheron/crypto-ecies
         import * as cryptoJS from "crypto-js"
         import * as elliptic from 'elliptic'
         import * as assert from 'assert'
-        import {Rand, Prime} from "@safeheron/crypto-rand"
+        import {Rand, Prime} from "@thepulsewallet/crypto-rand"
         const P256 = elliptic.ec('p256')
         import {Hex, UrlBase64, CryptoJSBytes} from "@safeheron/crypto-utils"
         import {ECIES, AuthEnc, Authorize} from "@safeheron/crypto-ecies"
@@ -34,7 +34,7 @@ npm install @safeheron/crypto-ecies
         import * as cryptoJS from "crypto-js"
         import * as elliptic from 'elliptic'
         import * as assert from 'assert'
-        import {Rand, Prime} from "@safeheron/crypto-rand"
+        import {Rand, Prime} from "@thepulsewallet/crypto-rand"
         const P256 = elliptic.ec('p256')
         import {Hex, UrlBase64, CryptoJSBytes} from "@safeheron/crypto-utils"
         import {ECIES, AuthEnc, Authorize} from "@safeheron/crypto-ecies"
@@ -58,7 +58,7 @@ npm install @safeheron/crypto-ecies
         import * as cryptoJS from "crypto-js"
         import * as elliptic from 'elliptic'
         import * as assert from 'assert'
-        import {Rand, Prime} from "@safeheron/crypto-rand"
+        import {Rand, Prime} from "@thepulsewallet/crypto-rand"
         const P256 = elliptic.ec('p256')
         import {Hex, UrlBase64, CryptoJSBytes} from "@safeheron/crypto-utils"
         import {ECIES, AuthEnc, Authorize} from "@safeheron/crypto-ecies"

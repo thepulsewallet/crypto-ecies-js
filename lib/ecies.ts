@@ -1,7 +1,7 @@
 import * as BN from 'bn.js'
 import * as cryptoJS from "crypto-js"
 import * as elliptic from 'elliptic'
-import {Rand, Prime} from "@safeheron/crypto-rand"
+import {Rand, Prime} from "@thepulsewallet/crypto-rand"
 import {Hex, CryptoJSBytes} from "@safeheron/crypto-utils"
 
 const P256 = elliptic.ec('p256')

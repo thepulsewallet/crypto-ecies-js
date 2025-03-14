@@ -1,5 +1,5 @@
 {
-  "name": "@safeheron/crypto-ecies",
+  "name": "@thepulsewallet/crypto-ecies",
   "version": "1.0.0",
   "description": "ecies",
   "engines": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:safeheron/crypto-ecies-js"
+    "url": "git@github.com:thepulsewallet/crypto-ecies-js"
   },
   "author": "Max<hejh1500@gmail.com>",
   "files": [
@@ -42,7 +42,7 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "@safeheron/crypto-rand": "^1.0.0",
+    "@thepulsewallet/crypto-rand": "^1.0.0",
     "@safeheron/crypto-utils": "^1.0.1",
     "bn.js": "^5.2.1",
     "crypto-js": "3.3.0",
@@ -53,5 +53,8 @@
     "env": [
       "mocha"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
